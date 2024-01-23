@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightgrey;
+    font-family: Arial, sans-serif;
+}
+/* Estilos del encabezado */
+header {
+    background-color: #ff8900; /* color de fondo naranja */
+    padding: 20px; /* espacio interior */
+  }
+  
+  header h1 {
+    color: #ffffff; /* color de texto blanco */
+    font-size: 36px; /* tamaño de fuente */
+    margin: 0; /* margen cero */
+  }
+  
+  h2{
+      margin-bottom: 40px;
+  }
+  
+  /* Estilos del menú de navegación */
+  nav {
+  
+    background-color: #2b2b2b; /* color de fondo marrón */
+    padding: 20px; /* espacio interior */
+  }
+  
+  nav ul {
+    list-style: none; /* quitar los puntos de la lista */
+    margin: 0; /* margen cero */
+    padding: 0; /* espacio interior cero */
+  }
+  
+  nav li {
+    display: inline-block; /* mostrar los elementos en línea */
+    margin-right: 20px; /* margen derecho */
+  }
+  
+  nav a {
+    color: #ffffff; /* color de texto blanco */
+    text-decoration: none; /* quitar el subrayado */
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* añadir el subrayado al pasar el ratón */
+  }
+.profile {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: grey;
+    border-radius: 50%;
+}
+.field {
+    margin-top: 20px;
+}
+.save {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+footer {
+    background-color: #2b2b2b; /* color de fondo marrón */
+    color: #ffffff; /* color de texto blanco */
+    font-size: 14px; /* tamaño de fuente */
+    padding: 10px; /* espacio interior */
+    text-align: center; /* centrar el texto */
+  }
+  
